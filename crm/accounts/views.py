@@ -7,3 +7,9 @@ def home(request):
 
 def about(request):
     return render(request, 'accounts/about.html')
+
+def customer(request):
+    return render(request, 'accounts/customer.html')
+
+def dash(request):
+    return render(request, 'accounts/dashboard.html')
